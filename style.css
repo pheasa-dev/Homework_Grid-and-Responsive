@@ -28,7 +28,7 @@
   grid-row: 2;
 }
 .d {
-  grid-column: 1 / span 2;
+  grid-column: 1 / span 2git ;
   background-color: rgb(170, 162, 162);
   border-radius: 10px;
 }
