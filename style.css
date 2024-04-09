@@ -1,0 +1,77 @@
+
+/* =========================================== */
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  gap: 15px;
+  width: 100%;
+  
+  
+}
+.a,
+.b,
+.c,
+.d,
+.e,
+.f,
+.g,
+.h,
+.i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.a {
+  grid-column: 1 / span 3;
+  background-color: rgb(170, 162, 162);
+  border-radius: 10px;
+}
+.b {
+background-color: rgb(170, 162, 162);
+  border-radius: 10px; 
+}
+.c {
+  background-color: rgb(170, 162, 162);
+  border-radius: 10px;
+  grid-column:1/  span 4;
+  grid-row: 2;
+}
+.d {
+    grid-column: 1 / span 2;
+    background-color: rgb(170, 162, 162);
+    border-radius: 10px;
+  }
+  .e     {
+  background-color: rgb(170, 162, 162);
+    border-radius: 10px; 
+    grid-column:  span 2;
+  } 
+  .f {
+    grid-column: 1 / span 2;
+    background-color: rgb(170, 162, 162);
+    border-radius: 10px;
+  }
+  .g {
+  background-color: rgb(170, 162, 162);
+    border-radius: 10px; 
+    grid-column:  span 1;
+  } 
+  .h {
+    grid-column: span 1;
+    background-color: rgb(170, 162, 162);
+    border-radius: 10px;
+  }
+  .i{
+  background-color: rgb(170, 162, 162);
+    border-radius: 10px; 
+    grid-column: 1/ span 4;
+  } 
+  /* .j{
+    background-color: rgb(170, 162, 162);
+      border-radius: 10px; 
+      grid-column:  span 1;
+    }  */
+
+
