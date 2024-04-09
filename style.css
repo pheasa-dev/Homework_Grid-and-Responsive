@@ -3,8 +3,8 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 200px);
-  gap: 15px;
-  width: 100%;
+  gap: 25px;
+margin: 30px;
 }
 .a,.b,.c,.d,.e,.f,.g,.h,.i {
   display: flex;
@@ -20,6 +20,7 @@
 .b {
   background-color: rgb(170, 162, 162);
   border-radius: 10px;
+  
 }
 .c {
   background-color: rgb(170, 162, 162);
@@ -28,32 +29,38 @@
   grid-row: 2;
 }
 .d {
-  grid-column: 1 / span 2git ;
+  grid-column: 1 / span 1;
   background-color: rgb(170, 162, 162);
   border-radius: 10px;
+  height: 150px;   
 }
 .e {
   background-color: rgb(170, 162, 162);
   border-radius: 10px;
-  grid-column: span 2;
+  grid-column: span 3;
+  height: 150px;
 }
 .f {
   grid-column: 1 / span 2;
   background-color: rgb(170, 162, 162);
   border-radius: 10px;
+  height: 150px;
 }
 .g {
   background-color: rgb(170, 162, 162);
   border-radius: 10px;
   grid-column: span 1;
+  height: 150px;
 }
 .h {
   grid-column: span 1;
   background-color: rgb(170, 162, 162);
   border-radius: 10px;
+  height: 150px;
 }
 .i {
   background-color: rgb(170, 162, 162);
   border-radius: 10px;
   grid-column: 1 / span 4;
+  height: 150px;
 }
