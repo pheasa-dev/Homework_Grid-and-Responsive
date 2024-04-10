@@ -7,7 +7,7 @@
   --bg-black: #000000cc;
   --bg-blue: blueviolet;
   --bg-gray: gainsboro;
-  --bg-red: red;
+  --bg-red: green;
   --color-white: #fff;
 }
 body{
@@ -85,7 +85,7 @@ body{
   width: 45px;
   height: 28px;
   font-size: 13px;
-  background-color: var(--bg-red);
+  background-color: var(--bg-blue);
   display: grid;
   place-content: center;
   color: var(--color-white);
